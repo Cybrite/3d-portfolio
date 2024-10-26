@@ -3,8 +3,58 @@ import { Canvas } from "@react-three/fiber";
 import HackerRoom from "../components/HackerRoom";
 import { Suspense } from "react";
 import CanvasLoader from "../components/canvasLoader";
+import { Leva, useControls } from "leva";
+// use Levathis to import leva and get console to adjust controls of the objects
 
 const Hero = () => {
+  const controls = useControls("HackerRoom", {
+    positionX: {
+      value: 2.5,
+      min: -10,
+      max: 10,
+    },
+    positionY: {
+      value: 2.5,
+      min: -10,
+      max: 10,
+    },
+    positionZ: {
+      value: 2.5,
+      min: -10,
+      max: 10,
+    },
+    rotateX: {
+      value: 2.5,
+      min: -10,
+      max: 10,
+    },
+    rotateY: {
+      value: 2.5,
+      min: -10,
+      max: 10,
+    },
+    rotateZ: {
+      value: 2.5,
+      min: -10,
+      max: 10,
+    },
+    scaleX: {
+      value: 2.5,
+      min: -10,
+      max: 10,
+    },
+    scaleY: {
+      value: 2.5,
+      min: -10,
+      max: 10,
+    },
+    scaleZ: {
+      value: 2.5,
+      min: -10,
+      max: 10,
+    },
+  });
+
   return (
     <section className="relative flex-col w-full min-h-screen">
       <div className="flex flex-col w-full gap-3 mx-auto mt-20 sm:mt-36 c-space">
@@ -17,14 +67,19 @@ const Hero = () => {
       </div>
 
       <div className="absolute inset-0 w-full h-full">
+        <Leva />
         <Canvas className="w-full h-full">
           <Suspense fallback={<CanvasLoader />}>
             <PerspectiveCamera makeDefault position={[0, 0, 30]} />
 
-            <HackerRoom scale={0.08} position={[0, 0, 0]} rotation={[0, Math.PI, 0]} />
+            <HackerRoom
+              position={[2, -8, 2]}
+              rotation={[0, -Math.PI , 0]}
+              scale={[0.11, 0.11, 0.11]}
+            />
 
             <ambientLight intensity={0.5} />
-            <directionalLight position={[10,10,10]} intensity={0.5} />
+            <directionalLight position={[10, 10, 10]} intensity={0.5} />
           </Suspense>
         </Canvas>
       </div>
