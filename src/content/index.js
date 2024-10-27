@@ -62,7 +62,7 @@ export const myProjects = [
         desc: 'FindMusic is a comprehensive online learning platform that provides a range of online courses and educational resources. It offers a seamless and intuitive learning experience for students.',
         subdesc:
             'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-        href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+        href: 'https://find-music-nu.vercel.app/',
         texture: '/textures/project/findMusic.mp4',
         logo: '/assets/project-logo1.png',
         logoStyle: {
@@ -99,7 +99,7 @@ export const myProjects = [
         desc: 'UsePopCorn is a comprehensive online movie rating platform that provides a range of movies and TV shows. It offers a seamless and intuitive rating experience for users.',
         subdesc:
             'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-        href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+        href: 'https://use-popcorn-umber.vercel.app/',
         texture: '/textures/project/UsePopcorn.mp4',
         logo: '/assets/project-logo2.png',
         logoStyle: {
@@ -131,7 +131,7 @@ export const myProjects = [
         desc: 'An innovative Funding Platform using BlockChain, Solidity, and Web3.0. and Next.js, to provide a secure and transparent way for users to raise funds for their projects.',
         subdesc:
             'Built as a unique software service app for startups and buisnesses to get funding in reliable ways and securely.',
-        href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+        href: 'https://github.com/Cybrite/CrowdCoin',
         texture: '/textures/project/FreeWill.mp4',
         logo: '/assets/project-logo3.png',
         logoStyle: {
@@ -170,7 +170,7 @@ export const myProjects = [
         desc: 'Eat-n-Split is a comprehensive online bill manager that provides a range of online bill management tools. It offers a seamless and intuitive bill management experience for users.',
         subdesc:
             'eat-n-split is a unique Software-as-a-Service app with React, vanilla CSS as a beginner project i made learning reactjs',
-        href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+        href: 'http://Cybrite.github.io/eat-n-split',
         texture: '/textures/project/eat-n-split.mp4',
         logo: '/assets/project-logo4.png',
         logoStyle: {
