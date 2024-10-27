@@ -75,7 +75,7 @@ const Hero = () => {
             <HackerRoom
               position={[2, -8, 2]}
               rotation={[0, -Math.PI , 0]}
-              scale={[0.11, 0.11, 0.11]}
+              scale={[0.12, 0.12, 0.12]}
             />
 
             <ambientLight intensity={0.5} />
