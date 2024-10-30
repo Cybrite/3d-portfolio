@@ -76,7 +76,7 @@ const Hero = () => {
           Hi, I am Harsh!<span className="waving-hand">👋</span>
         </p>
         <p className="hero_tag text-gray_gradient">
-          To the stars, Through Hardships
+          I can code your Dreams.
         </p>
       </div>
 
