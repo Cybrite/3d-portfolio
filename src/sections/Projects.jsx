@@ -35,7 +35,7 @@ const Projects = () => {
 
   return (
     <section className="my-20 c-space">
-      <p className="head-text">My Selected Work</p>
+      <p className="head-text">My Projects</p>
 
       <div className="grid w-full grid-cols-1 gap-5 mt-12 lg:grid-cols-2">
         <div className="relative flex flex-col gap-5 px-5 py-10 shadow-2xl sm:p-10 shadow-black-200">
