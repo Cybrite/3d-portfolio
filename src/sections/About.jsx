@@ -15,7 +15,10 @@ const About = () => {
 
   return (
     <section className="my-20 c-space">
-      <div className="grid h-full grid-cols-1 gap-5 xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2">
+      <div
+        className="grid h-full grid-cols-1 gap-5 xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2"
+        id="about"
+      >
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
             <img
@@ -72,6 +75,17 @@ const About = () => {
                     size: 500,
                   },
                 ]}
+                markers={[
+                  {
+                    id: "pointer",
+                    coordinates: [22.260424, 84.853584],
+                    value: 1,
+                  },
+                ]}
+                markerOptions={{
+                  color: () => "red",
+                  radiusScale: 1,
+                }}
               />
             </div>
             <div>

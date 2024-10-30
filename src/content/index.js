@@ -60,8 +60,7 @@ export const myProjects = [
     {
         title: 'FindMusic - education platform',
         desc: 'FindMusic is a comprehensive online learning platform that provides a range of online courses and educational resources. It offers a seamless and intuitive learning experience for students.',
-        subdesc:
-            'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
+        subdesc:'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
         href: 'https://find-music-nu.vercel.app/',
         texture: '/textures/project/findMusic.mp4',
         logo: '/assets/project-logo1.png',
@@ -75,7 +74,7 @@ export const myProjects = [
             {
                 id: 1,
                 name: 'Next.js',
-                path: '/assets/Next.svg',
+                path: '/assets/Next.png',
             },
             {
                 id: 2,
@@ -146,7 +145,7 @@ export const myProjects = [
             {
                 id: 1,
                 name: 'Next.js',
-                path: '/assets/Next.svg',
+                path: '/assets/Next.png',
             },
             {
                 id: 2,
