@@ -1,12 +1,13 @@
 import { Canvas } from "@react-three/fiber";
-import React, { Suspense, useState } from "react";
-import { workExperiences } from "../content/index.js";
+import React, { Suspense, useState, useRef } from "react";
+import { workExperiences } from "../content/index.js"; // Import workExperiences
 import CanvasLoader from "../components/canvasLoader.jsx";
 import { OrbitControls } from "@react-three/drei";
 import Developer from "../components/Developer.jsx";
 
 const Experience = () => {
   const [animationName, setAnimationName] = useState("idle");
+  const workExperiencesRef = useRef(workExperiences);
   return (
     <section className="my-20 c-space">
       <div className="w-full text-white-600">
@@ -30,7 +31,7 @@ const Experience = () => {
 
           <div className="work-content">
             <div className="sm:py-10 py-5 sm:px-5 px-2.5">
-              {workExperiences.map((item, index) => (
+              {workExperiencesRef.current.map((item, index) => ( 
                 <div
                   key={index}
                   className="work-content_container group"
