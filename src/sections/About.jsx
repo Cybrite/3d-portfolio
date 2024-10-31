@@ -93,11 +93,13 @@ const About = () => {
               <p className="grid-subtext">
                 I am pursuing my B.Tech from NIT Rourkela.
               </p>
-              <Button
-                name="Get in touch"
-                isBeam
-                containerClass="mt-10 w-full"
-              />
+              <a className="w-fit" href="#contact">
+                <Button
+                  name="Get in touch"
+                  isBeam
+                  containerClass="mt-10 w-full"
+                />
+              </a>
             </div>
           </div>
         </div>
