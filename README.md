@@ -27,4 +27,4 @@ A modern and interactive 3D portfolio website built with React and Vite.
 
 1. Clone the repository:
 ```bash
-git clone [your-repo-url]
+git clone https://github.com/Cybrite/3d-portfolio.git
