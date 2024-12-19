@@ -23,6 +23,38 @@ export const navLinks = [
 
 export const myProjects = [
   {
+    title: "Energize",
+    desc: "Energize is an online web appl mae using Next15 and React19 , and utilizes Sanity CMS to manage content.",
+    subdesc:
+      "energize is a unique Software-as-a-Service app with Next and Sanity CMS as a full stack project.",
+    href: "https://energize-self.vercel.app/",
+    texture: "/textures/project/energize.mp4",
+    logo: "/assets/energize.jpeg",
+    logoStyle: {
+      backgroundColor: "#FF1493",
+      border: "0.2px solid #FF69B4",
+      boxShadow: "0px 0px 60px 0px #FFB6C1",
+    },
+    spotlight: "/assets/spotlight4.png",
+    tags: [
+      {
+        id: 1,
+        name: "React.js",
+        path: "/assets/react.svg",
+      },
+      {
+        id: 2,
+        name: "Next",
+        path: "assets/Next.png",
+      },
+      {
+        id: 3,
+        name: "Tailwindcss",
+        path: "assets/tailwindcss.png",
+      },
+    ],
+  },
+  {
     title: "FindMusic - education platform",
     desc: "FindMusic is a comprehensive online learning platform that provides a range of online courses and educational resources. It offers a seamless and intuitive learning experience for students.",
     subdesc:
