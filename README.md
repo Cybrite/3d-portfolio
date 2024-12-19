@@ -7,14 +7,13 @@ A modern and interactive 3D portfolio website built with React and Vite.
 - React
 - Vite
 - Three.js (if you're using 3D features)
-- [Add any other major technologies/libraries]
+- Miximo
 
 ## Features
 
 - Interactive 3D elements
 - Responsive design
 - Fast page loading with Vite's HMR (Hot Module Replacement)
-- [Add your key features]
 
 ## Getting Started
 
