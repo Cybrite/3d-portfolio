@@ -234,6 +234,26 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
+    name: "OpenCode NITR",
+    pos: "Vice-President",
+    duration: "2025 - Present",
+    title:
+      "OpenCode NITR is a community of developers and designers who are passionate about open source. As the Vice-President, I am responsible for leading the team and ensuring that we are making a positive impact in the open source community.",
+    icon: "/assets/OC.png",
+    animation: "salute",
+  },
+  {
+    id: 2,
+    name: "NirveonX",
+    pos: "Full Stack Developer Intern",
+    duration: "Feb 2025 - May 2025",
+    title:
+      "NirveonX is a startup that is building a platform for healthcare using AI for advising on Health issues. As a Full Stack Developer Intern, I was responsible for building and maintaining the platform.",
+    icon: "/assets/NX.png",
+    animation: "victory",
+  },
+  {
+    id: 3,
     name: "GDSC NIT Rourkela",
     pos: "Web Developer",
     duration: "2024 - Present",
@@ -243,7 +263,7 @@ export const workExperiences = [
     animation: "victory",
   },
   {
-    id: 2,
+    id: 4,
     name: "NIT RourKela",
     pos: "Engineering Student",
     duration: "2023 - current",
@@ -253,7 +273,7 @@ export const workExperiences = [
     animation: "clapping",
   },
   {
-    id: 3,
+    id: 5,
     name: "NJMS",
     pos: "Student",
     duration: "2009 - 2021",
