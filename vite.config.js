@@ -5,7 +5,7 @@ import { resolve } from "path";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "./", // Makes the build work with relative paths
+  base: "./",
   resolve: {
     alias: {
       "@": resolve(__dirname, "src"),
@@ -16,7 +16,7 @@ export default defineConfig({
     },
   },
   build: {
-    minify: "esbuild", // Changed from "terser" to "esbuild" which is built-in
+    minify: "esbuild",
     rollupOptions: {
       output: {
         manualChunks: {
